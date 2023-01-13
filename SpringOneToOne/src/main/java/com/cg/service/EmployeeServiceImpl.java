@@ -18,6 +18,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
 	private EmployeeRepo empRepo;
 
+	public EmployeeServiceImpl(EmployeeRepo empRepo2) {
+		this.empRepo = empRepo;
+	}
+
 	@Override
 	public Employee addEmployee(Employee emp) {
 
