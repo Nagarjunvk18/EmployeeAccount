@@ -29,7 +29,7 @@ class EmployeeServiceImplTest {
 	private EmployeeRepo empRepo;
 
 	@InjectMocks
-	private EmployeeServiceImpl eService;
+	private EmployeeService eService;
 
 	Employee emp = new Employee();
 	List<Employee> empList = new ArrayList<Employee>();
